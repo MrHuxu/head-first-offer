@@ -13,13 +13,13 @@ import (
 )
 
 // PrintListReversinglyRecursively ...
-func PrintListReversinglyRecursively(pHead *utils.ListNode) {
-	if pHead == nil {
+func PrintListReversinglyRecursively(head *utils.ListNode) {
+	if head == nil {
 		return
 	}
 
-	PrintListReversinglyRecursively(pHead.Next)
-	println(pHead.Val)
+	PrintListReversinglyRecursively(head.Next)
+	println(head.Val)
 }
 
 func main() {
