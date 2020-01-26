@@ -77,6 +77,6 @@ func main() {
 	nodeH.Parent = nodeE
 	nodeI.Parent = nodeE
 
-	fmt.Println(GetNext(nodeE).Val)
+	fmt.Println(GetNext(nodeE))
 	fmt.Println(GetNext(nodeG))
 }

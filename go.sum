@@ -1,5 +1,5 @@
-github.com/MrHuxu/leetcode150/problems v0.0.0-20200126082515-93588734030e h1:zG1gJAVaw5gifmbC8GJu9MbanudqGCG4PEDnmVlpVVo=
-github.com/MrHuxu/leetcode150/problems v0.0.0-20200126082515-93588734030e/go.mod h1:DzvhiLJsO1XucNoUYHerjADBC0CVhYobSUWbwVPHiJQ=
+github.com/MrHuxu/leetcode150/problems v0.0.0-20200126083913-d8f16870e45b h1:hHxWrnCjYIpp7qHTOPyn9hO8YsCXleiONlQGiyJGtyk=
+github.com/MrHuxu/leetcode150/problems v0.0.0-20200126083913-d8f16870e45b/go.mod h1:DzvhiLJsO1XucNoUYHerjADBC0CVhYobSUWbwVPHiJQ=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
