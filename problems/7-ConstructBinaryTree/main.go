@@ -11,11 +11,11 @@ package main
 import (
 	"fmt"
 
-	"github.com/MrHuxu/leetcode150/problems/utils"
+	"github.com/MrHuxu/types"
 )
 
 // Construct ...
-func Construct(preorder, inorder []int) *utils.TreeNode {
+func Construct(preorder, inorder []int) *types.TreeNode {
 	if len(preorder) == 0 {
 		return nil
 	}
@@ -28,7 +28,7 @@ func Construct(preorder, inorder []int) *utils.TreeNode {
 		}
 	}
 
-	root := &utils.TreeNode{Val: preorder[0]}
+	root := &types.TreeNode{Val: preorder[0]}
 	root.Left = Construct(preorder[1:rootPos+1], inorder[0:rootPos])
 	root.Right = Construct(preorder[rootPos+1:len(preorder)], inorder[rootPos+1:len(inorder)])
 

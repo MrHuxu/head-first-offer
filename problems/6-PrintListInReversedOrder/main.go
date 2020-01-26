@@ -9,11 +9,11 @@
 package main
 
 import (
-	"github.com/MrHuxu/leetcode150/problems/utils"
+	"github.com/MrHuxu/types"
 )
 
 // PrintListReversinglyRecursively ...
-func PrintListReversinglyRecursively(head *utils.ListNode) {
+func PrintListReversinglyRecursively(head *types.ListNode) {
 	if head == nil {
 		return
 	}
@@ -23,6 +23,6 @@ func PrintListReversinglyRecursively(head *utils.ListNode) {
 }
 
 func main() {
-	list := utils.BuildList([]int{1, 34, 4, 2, 12})
+	list := types.BuildList([]int{1, 34, 4, 2, 12})
 	PrintListReversinglyRecursively(list)
 }

@@ -15,16 +15,16 @@ package main
 import (
 	"fmt"
 
-	"github.com/MrHuxu/leetcode150/problems/utils"
+	"github.com/MrHuxu/types"
 )
 
 // GetNext ...
-func GetNext(node *utils.TreeNode) *utils.TreeNode {
+func GetNext(node *types.TreeNodeWithParent) *types.TreeNodeWithParent {
 	if node == nil {
 		return nil
 	}
 
-	var next *utils.TreeNode
+	var next *types.TreeNodeWithParent
 
 	if node.Right != nil {
 		tmp := node.Right
@@ -50,15 +50,15 @@ func GetNext(node *utils.TreeNode) *utils.TreeNode {
 }
 
 func main() {
-	nodeA := &utils.TreeNode{Val: 1}
-	nodeB := &utils.TreeNode{Val: 2}
-	nodeC := &utils.TreeNode{Val: 3}
-	nodeD := &utils.TreeNode{Val: 4}
-	nodeE := &utils.TreeNode{Val: 5}
-	nodeF := &utils.TreeNode{Val: 6}
-	nodeG := &utils.TreeNode{Val: 7}
-	nodeH := &utils.TreeNode{Val: 8}
-	nodeI := &utils.TreeNode{Val: 9}
+	nodeA := &types.TreeNodeWithParent{Val: 1}
+	nodeB := &types.TreeNodeWithParent{Val: 2}
+	nodeC := &types.TreeNodeWithParent{Val: 3}
+	nodeD := &types.TreeNodeWithParent{Val: 4}
+	nodeE := &types.TreeNodeWithParent{Val: 5}
+	nodeF := &types.TreeNodeWithParent{Val: 6}
+	nodeG := &types.TreeNodeWithParent{Val: 7}
+	nodeH := &types.TreeNodeWithParent{Val: 8}
+	nodeI := &types.TreeNodeWithParent{Val: 9}
 
 	nodeA.Left = nodeB
 	nodeA.Right = nodeC
@@ -77,6 +77,8 @@ func main() {
 	nodeH.Parent = nodeE
 	nodeI.Parent = nodeE
 
+	fmt.Println(nodeA)
+	fmt.Println(GetNext(nodeI))
 	fmt.Println(GetNext(nodeE))
 	fmt.Println(GetNext(nodeG))
 }
