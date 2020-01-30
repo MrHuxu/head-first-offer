@@ -44,4 +44,6 @@ func %s() {
 func main() {
 }`, problem, solution, function))
 	ioutil.WriteFile(folder+"/"+"main.go", data, 0644)
+
+	println("👌  directory and file created.")
 }
