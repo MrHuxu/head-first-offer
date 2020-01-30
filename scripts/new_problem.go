@@ -38,11 +38,14 @@ func main() {
 
 */
 
+package main
+
+// %s ...
 func %s() {
 }
 
 func main() {
-}`, problem, solution, function))
+}`, problem, solution, function, function))
 	ioutil.WriteFile(folder+"/"+"main.go", data, 0644)
 
 	println("👌  directory and file created.")
