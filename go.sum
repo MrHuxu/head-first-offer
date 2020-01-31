@@ -2,6 +2,8 @@ github.com/MrHuxu/types v0.0.0-20200126101418-bbfc56be6a1b h1:tM33T8Rldu6K11T4G6
 github.com/MrHuxu/types v0.0.0-20200126101418-bbfc56be6a1b/go.mod h1:Mt1ELXfSNa1lgbKpHZMaCP+9GeU7YYSdHXqHHU1IrJs=
 github.com/MrHuxu/types v0.0.0-20200131105218-2d195793225d h1:wWXWtFSF6sPpZuTNuDQheDBP8Fwjs8acH5gK7C00GQ8=
 github.com/MrHuxu/types v0.0.0-20200131105218-2d195793225d/go.mod h1:ELJtV2/MgRgCNo9EnsbTOK5fce/euHgZ3+GKl3zBr3g=
+github.com/MrHuxu/types v0.0.0-20200131133409-b17673ea3387 h1:C270dQIbUEY1SLocUgs5O6MXHRRb9Pla3E3w4iE/td0=
+github.com/MrHuxu/types v0.0.0-20200131133409-b17673ea3387/go.mod h1:ELJtV2/MgRgCNo9EnsbTOK5fce/euHgZ3+GKl3zBr3g=
 github.com/chzyer/logex v1.1.10/go.mod h1:+Ywpsq7O8HXn0nuIou7OrIPyXbp3wmkHB+jjWRnGsAI=
 github.com/chzyer/readline v0.0.0-20180603132655-2972be24d48e h1:fY5BOSpyZCqRo5OhCuC+XN+r/bBCmeuuJtjz+bCNIf8=
 github.com/chzyer/readline v0.0.0-20180603132655-2972be24d48e/go.mod h1:nSuG5e5PlCu98SY8svDHJxuZscDgtXS6KTTbou5AhLI=
