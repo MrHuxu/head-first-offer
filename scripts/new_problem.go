@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"os/exec"
+	"strings"
 
 	"github.com/manifoldco/promptui"
 )
@@ -41,11 +42,11 @@ func main() {
 package main
 
 // %s ...
-func %s() {
+func %s {
 }
 
 func main() {
-}`, problem, solution, function, function))
+}`, problem, solution, strings.Split(function, "(")[0], function))
 	ioutil.WriteFile(folder+"/"+"main.go", data, 0644)
 
 	println("👌  directory and file created.")
